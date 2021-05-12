@@ -1,0 +1,4 @@
+rootProject.name = 'kafka-spark-structured-streaming'
+include 'kafka-producer'
+include 'spark-structured-streaming'
+
