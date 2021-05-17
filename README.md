@@ -24,6 +24,16 @@ Spark examples uses a number of open source projects to work properly:
 - MongoDB
 - Windows 10
 
+## nc or netcat
+The nc (or netcat) utility is used for just about anything under the sun involving TCP or UDP. It can open TCP connections, send UDP packets, listen on arbitrary TCP and UDP ports, do port scanning, and deal with both IPv4 and IPv6.
+
+The socket examples uses the following command
+nc -lk 9999
+
+windows uses netcat from [nmap](https://nmap.org/download.html) and download and run the following command
+netcat -lk 9999
+
+
 ## Installation
 
 Spark requires [JDK](https://openjdk.net/) to run. 
